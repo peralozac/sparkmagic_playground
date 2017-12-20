@@ -1,0 +1,24 @@
+{
+    "schema": {
+        "fields": [{
+            "name": "loan_amount",
+            "type": "double"
+        }, {
+            "name": "dti",
+            "type": "double"
+        }, {
+            "name": "state",
+            "type": "string"
+        }, {
+            "name": "loan_title",
+            "type": "string"
+        }, {
+            "name": "emp_length",
+            "type": "string"
+        }, {
+            "name": "fico_score_group_fnl",
+            "type": "string"
+        }]
+    },
+    "rows": [[1000.0, 5.2, "NY", "Motorcycle", "< 1 year", "650 - 700" ]]
+}
