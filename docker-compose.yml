@@ -1,12 +1,12 @@
 version: "3"
 services:
   spark:
-    image: peralozac/sparkmagic-spark
+    image: peralozac/sparkmagic_spark
     hostname: spark
     ports:
       - "8998:8998"
   jupyter:
-    image: peralozac/sparkmagic-jupyter
+    image: peralozac/sparkmagic_jupyter
     links:
       - spark
     ports:
